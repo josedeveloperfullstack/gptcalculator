@@ -1,0 +1,71 @@
+body {
+    color: white;
+    background-image: url("https://m.economictimes.com/thumb/msid-94268528,width-1200,height-900,resizemode-4,imgsize-89644/ai.jpg");
+    background-size: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #000000;
+    
+ 
+    background-color: #e6e6e6;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #e6e6e6;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .screen {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .screen input {
+    font-size: 1.5em;
+    border: none;
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .zero {
+    width: 50%;
+  }
+  

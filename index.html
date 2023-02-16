@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Calculator Created with artificial Intellegence</h1>
+    </div>
+    <div class="calculator">
+      <div class="screen">
+        <input id="result" type="text" disabled>
+      </div>
+      <div class="button-row">
+        <button onclick="clearResult()">C</button>
+        <button onclick="backspace()">&larr;</button>
+        <button onclick="calculate('/')">&#247;</button>
+        <button onclick="calculate('*')">&times;</button>
+      </div>
+      <div class="button-row">
+        <button onclick="addToResult('7')">7</button>
+        <button onclick="addToResult('8')">8</button>
+        <button onclick="addToResult('9')">9</button>
+        <button onclick="calculate('-')">&#8722;</button>
+      </div>
+      <div class="button-row">
+        <button onclick="addToResult('4')">4</button>
+        <button onclick="addToResult('5')">5</button>
+        <button onclick="addToResult('6')">6</button>
+        <button onclick="calculate('+')">&#43;</button>
+      </div>
+      <div class="button-row">
+        <button onclick="addToResult('1')">1</button>
+        <button onclick="addToResult('2')">2</button>
+        <button onclick="addToResult('3')">3</button>
+        <button onclick="calculate('=')">=</button>
+      </div>
+      <div class="button-row">
+        <button class="zero" onclick="addToResult('0')">0</button>
+        <button onclick="addToResult('.')">.</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
+
+</body>
+</html>
